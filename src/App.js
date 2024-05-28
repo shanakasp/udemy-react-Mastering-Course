@@ -24,9 +24,10 @@ function App() {
 const Example = (props) => {
   return (
     <div>
-      <h3>Name: {props.Name}</h3>
-      <h3>Age: {props.Age}</h3>
+      <h3>Name: {props.Name}</h3> <br></br>
+      <h3>Age: {props.Age}</h3> <br></br>
       <h3>Job: {props.Job}</h3>
+      <br></br>
     </div>
   );
 };
