@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Text from "./Text";
 
 function App() {
   const title = "Welcome to the site";
@@ -9,6 +10,7 @@ function App() {
       <Navbar></Navbar>
       <div className="content">App Component</div>
       <Home></Home>
+      <Text></Text>
       <div className="example">
         {" "}
         <Example Name="User ABC" Age="22" Job="Carpenter"></Example>
